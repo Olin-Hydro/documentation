@@ -1,2 +1,67 @@
-site_name: Hydroponics 23-24 Spring Term Documentation and On-Boarding
-site_url: https://example.com/
+site_name: Prism Pines Docs
+
+site_url: https://kennethxiong23.github.io/out-maine-docs/
+theme: 
+  name: material
+  features:    
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    # - content.code.select
+    # - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    # - navigation.instant
+    # - navigation.instant.prefetch
+    # - navigation.instant.progress
+    # - navigation.prune
+    - navigation.sections
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+  palette:
+    primary: light blue
+    scheme: slate
+
+
+nav:
+  - Getting Started: index.md
+  - Onboarding: 
+    - onboarding/index.md
+    - Design Onboarding: onboarding/design.md
+    - Development Onboarding: onboarding/dev.md
+  - Unity: 
+    - unity/index.md
+    - Animations: unity/animations.md
+    - Creating Scenes: unity/creating-scenes.md
+    - Creating Sprites: unity/creating-sprites.md
+    #- Game Objects: unity/game-objects.md
+    - Importing Art: unity/importing-art.md
+  - Scripts:
+    - scripts/index.md
+    - CameraMotor: scripts/CameraMotor.md
+    - Collidable: scripts/Collidable.md
+    - bookFallFinish: scripts/bookFallFinish.md
+    - FallingBook: scripts/FallingBook.md
+    - Fighter: scripts/Fighter.md
+    - NavigateScenes: scripts/NavigateScenes.md
+    - Mover: scripts/Mover.md
+    - player: scripts/player.md
+   # - InputDeviceManager: scripts/InputDeviceManager.md
+    #- InstantiatePrefabs: scripts/InstantiatePrefabs.md
+  - Github: github.md
+    # - Push:
+    # - Pull:
+    # - Stash:
+    # - Commit:
+    # - Merge:
