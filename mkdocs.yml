@@ -1,9 +1,9 @@
-site_name: Prism Pines Docs
+site_name: Hydroponics Docs
 
-site_url: https://kennethxiong23.github.io/out-maine-docs/
-theme: 
+site_url: https://olin-hydro.github.io/documentation/
+theme:
   name: material
-  features:    
+  features:
     - announce.dismiss
     - content.action.edit
     - content.action.view
@@ -33,35 +33,5 @@ theme:
     primary: light blue
     scheme: slate
 
-
 nav:
   - Getting Started: index.md
-  - Onboarding: 
-    - onboarding/index.md
-    - Design Onboarding: onboarding/design.md
-    - Development Onboarding: onboarding/dev.md
-  - Unity: 
-    - unity/index.md
-    - Animations: unity/animations.md
-    - Creating Scenes: unity/creating-scenes.md
-    - Creating Sprites: unity/creating-sprites.md
-    #- Game Objects: unity/game-objects.md
-    - Importing Art: unity/importing-art.md
-  - Scripts:
-    - scripts/index.md
-    - CameraMotor: scripts/CameraMotor.md
-    - Collidable: scripts/Collidable.md
-    - bookFallFinish: scripts/bookFallFinish.md
-    - FallingBook: scripts/FallingBook.md
-    - Fighter: scripts/Fighter.md
-    - NavigateScenes: scripts/NavigateScenes.md
-    - Mover: scripts/Mover.md
-    - player: scripts/player.md
-   # - InputDeviceManager: scripts/InputDeviceManager.md
-    #- InstantiatePrefabs: scripts/InstantiatePrefabs.md
-  - Github: github.md
-    # - Push:
-    # - Pull:
-    # - Stash:
-    # - Commit:
-    # - Merge:
