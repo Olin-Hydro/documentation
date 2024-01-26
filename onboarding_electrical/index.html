@@ -1,0 +1,955 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://olin-hydro.github.io/documentation/onboarding_electrical/">
+      
+      
+        <link rel="prev" href="../packages/">
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.5">
+    
+    
+      
+        <title>Electrical Onboarding - Hydroponics Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.50c56a3b.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="light-blue" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#hydroponic-system-onboarding-tutorial" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Hydroponics Docs" class="md-header__button md-logo" aria-label="Hydroponics Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Hydroponics Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Electrical Onboarding
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+    
+  
+  Getting Started
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../computational_setup/" class="md-tabs__link">
+        
+  
+    
+  
+  Computational Set Up
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../packages/" class="md-tabs__link">
+        
+  
+    
+  
+  Installing Packages
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+    
+  
+  Electrical Onboarding
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Hydroponics Docs" class="md-nav__button md-logo" aria-label="Hydroponics Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Hydroponics Docs
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Getting Started
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../computational_setup/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Computational Set Up
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../packages/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Installing Packages
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Electrical Onboarding
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Electrical Onboarding
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#section-1-overview-of-electrical-parts-and-sensors" class="md-nav__link">
+    <span class="md-ellipsis">
+      Section 1: Overview of Electrical Parts and Sensors
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Section 1: Overview of Electrical Parts and Sensors">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#peristaltic-water-pump" class="md-nav__link">
+    <span class="md-ellipsis">
+      Peristaltic Water Pump
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#temperature-sensor" class="md-nav__link">
+    <span class="md-ellipsis">
+      Temperature Sensor
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tds-sensor-analog" class="md-nav__link">
+    <span class="md-ellipsis">
+      TDS Sensor (Analog)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#luminance-sensor-analog" class="md-nav__link">
+    <span class="md-ellipsis">
+      Luminance Sensor (Analog)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ph-sensor-i2c" class="md-nav__link">
+    <span class="md-ellipsis">
+      pH Sensor (I2C)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#humidity-sensor-i2c" class="md-nav__link">
+    <span class="md-ellipsis">
+      Humidity Sensor (I2C)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-2-adafruit-esp32-feather-board" class="md-nav__link">
+    <span class="md-ellipsis">
+      Section 2: Adafruit ESP32 Feather Board
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Section 2: Adafruit ESP32 Feather Board">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#understanding-the-adafruit-esp32-feather-board" class="md-nav__link">
+    <span class="md-ellipsis">
+      Understanding the Adafruit ESP32 Feather Board
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tutorial-on-connecting-sensors-to-the-adafruit-esp32" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tutorial on Connecting Sensors to the Adafruit ESP32
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tutorial on Connecting Sensors to the Adafruit ESP32">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#visual-guide" class="md-nav__link">
+    <span class="md-ellipsis">
+      Visual Guide:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-by-step-guide" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step-by-Step Guide:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#additional-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      Additional Resources:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-3-coding-for-the-sensors" class="md-nav__link">
+    <span class="md-ellipsis">
+      Section 3: Coding for the Sensors
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-4-putting-it-all-together" class="md-nav__link">
+    <span class="md-ellipsis">
+      Section 4: Putting It All Together
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-5-celebrate-your-success" class="md-nav__link">
+    <span class="md-ellipsis">
+      Section 5: Celebrate Your Success
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#section-1-overview-of-electrical-parts-and-sensors" class="md-nav__link">
+    <span class="md-ellipsis">
+      Section 1: Overview of Electrical Parts and Sensors
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Section 1: Overview of Electrical Parts and Sensors">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#peristaltic-water-pump" class="md-nav__link">
+    <span class="md-ellipsis">
+      Peristaltic Water Pump
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#temperature-sensor" class="md-nav__link">
+    <span class="md-ellipsis">
+      Temperature Sensor
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tds-sensor-analog" class="md-nav__link">
+    <span class="md-ellipsis">
+      TDS Sensor (Analog)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#luminance-sensor-analog" class="md-nav__link">
+    <span class="md-ellipsis">
+      Luminance Sensor (Analog)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ph-sensor-i2c" class="md-nav__link">
+    <span class="md-ellipsis">
+      pH Sensor (I2C)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#humidity-sensor-i2c" class="md-nav__link">
+    <span class="md-ellipsis">
+      Humidity Sensor (I2C)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-2-adafruit-esp32-feather-board" class="md-nav__link">
+    <span class="md-ellipsis">
+      Section 2: Adafruit ESP32 Feather Board
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Section 2: Adafruit ESP32 Feather Board">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#understanding-the-adafruit-esp32-feather-board" class="md-nav__link">
+    <span class="md-ellipsis">
+      Understanding the Adafruit ESP32 Feather Board
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tutorial-on-connecting-sensors-to-the-adafruit-esp32" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tutorial on Connecting Sensors to the Adafruit ESP32
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tutorial on Connecting Sensors to the Adafruit ESP32">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#visual-guide" class="md-nav__link">
+    <span class="md-ellipsis">
+      Visual Guide:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-by-step-guide" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step-by-Step Guide:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#additional-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      Additional Resources:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-3-coding-for-the-sensors" class="md-nav__link">
+    <span class="md-ellipsis">
+      Section 3: Coding for the Sensors
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-4-putting-it-all-together" class="md-nav__link">
+    <span class="md-ellipsis">
+      Section 4: Putting It All Together
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-5-celebrate-your-success" class="md-nav__link">
+    <span class="md-ellipsis">
+      Section 5: Celebrate Your Success
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="hydroponic-system-onboarding-tutorial">Hydroponic System Onboarding Tutorial</h1>
+<p>Welcome to your onboarding! This document will guide you through the initial steps of setting up your hydroponic system. During the onboarding, you should be provided with the following items:</p>
+<ul>
+<li>1x Adafruit ESP32 Feather Board</li>
+<li>1x Breadboard</li>
+<li>1x Sensor (various types)</li>
+<li>A bunch of cables</li>
+<li>A few LED bulbs</li>
+</ul>
+<h2 id="section-1-overview-of-electrical-parts-and-sensors">Section 1: Overview of Electrical Parts and Sensors</h2>
+<h3 id="peristaltic-water-pump">Peristaltic Water Pump</h3>
+<ul>
+<li><strong>Function:</strong> Delivers water, nutrients, or any liquid solution throughout the hydroponic system.</li>
+<li><strong>Operation:</strong> Compresses and relaxes a tube to create a steady flow of liquid without contamination.</li>
+<li><strong>Use Case:</strong> Controlled delivery of water and nutrients at scheduled intervals.</li>
+</ul>
+<h3 id="temperature-sensor">Temperature Sensor</h3>
+<ul>
+<li><strong>Function:</strong> Monitors the temperature within the hydroponics system.</li>
+<li><strong>Operation:</strong> Measures ambient temperature, maintaining optimal growth conditions.</li>
+<li><strong>Measurement Range:</strong> 10 mV/°C scale factor, 500mV offset (0.5V @ 0°C).</li>
+</ul>
+<h3 id="tds-sensor-analog">TDS Sensor (Analog)</h3>
+<ul>
+<li><strong>Function:</strong> Measures Total Dissolved Solids in water, indicating nutrient concentration.</li>
+<li><strong>Operation:</strong> Monitors nutrient levels in water.</li>
+<li><strong>Measurement Range:</strong> 0 ~ 1000ppm (±10% accuracy).</li>
+</ul>
+<h3 id="luminance-sensor-analog">Luminance Sensor (Analog)</h3>
+<ul>
+<li><strong>Function:</strong> Measures light intensity within the system.</li>
+<li><strong>Operation:</strong> Regulates artificial lighting or assesses natural light levels.</li>
+<li><strong>Measurement Range:</strong> 0 - 4095; lower values indicate brighter areas.</li>
+</ul>
+<h3 id="ph-sensor-i2c">pH Sensor (I2C)</h3>
+<ul>
+<li><strong>Function:</strong> Monitors pH level of the water.</li>
+<li><strong>Operation:</strong> Ensures pH is within optimal range for nutrient absorption.</li>
+<li><strong>Measurement Range:</strong> .001pH − 14.000pH.</li>
+</ul>
+<h3 id="humidity-sensor-i2c">Humidity Sensor (I2C)</h3>
+<ul>
+<li><strong>Function:</strong> Measures humidity levels in the environment.</li>
+<li><strong>Operation:</strong> Maintains ideal humidity for plant growth.</li>
+<li><strong>Notes:</strong> Prevents excess moisture or dry conditions.</li>
+</ul>
+<h2 id="section-2-adafruit-esp32-feather-board">Section 2: Adafruit ESP32 Feather Board</h2>
+<p>The Adafruit ESP32 Feather Board is a versatile and powerful microcontroller board, ideal for a variety of DIY projects, especially in hydroponics. It's the brain of your hydroponic system, seamlessly connecting and controlling various sensors and components.</p>
+<h3 id="understanding-the-adafruit-esp32-feather-board">Understanding the Adafruit ESP32 Feather Board</h3>
+<p>Before diving into the connections, let's understand what makes the ESP32 Feather Board stand out:</p>
+<ul>
+<li><strong>Wi-Fi and Bluetooth Capabilities:</strong> Allows for wireless communication and remote monitoring of your hydroponic system.</li>
+<li><strong>Rich Set of I/O Pins:</strong> Ample digital and analog pins to connect a variety of sensors and actuators.</li>
+<li><strong>Low Power Consumption:</strong> Ideal for battery-operated or energy-efficient hydroponic setups.</li>
+<li><strong>Compact Size:</strong> Its small form factor makes it easy to integrate into your hydroponic system without taking up much space.</li>
+</ul>
+<h3 id="tutorial-on-connecting-sensors-to-the-adafruit-esp32">Tutorial on Connecting Sensors to the Adafruit ESP32</h3>
+<h4 id="visual-guide">Visual Guide:</h4>
+<p><img alt="Adafruit ESP32 Feather Board Connection Diagram" src="https://cdn-learn.adafruit.com/assets/assets/000/111/179/large1024/wireless_Adafruit_HUZZAH32_ESP32_Feather_Pinout.png?1651089809" /></p>
+<h4 id="step-by-step-guide">Step-by-Step Guide:</h4>
+<ol>
+<li><strong>Identify the I/O Pins (input/output pin):</strong> First, familiarize yourself with the I/O pins (the numbers on the board, as seen in the visual diagram as well) on the ESP32 board. Each sensor will connect to these pins for data communication. You don't really need to know what an I/O pin is, right now, just think of it as a communication channel. If you are interested, here is a <a href="../analogy_io/">simple analogy</a>.</li>
+<li><strong>Start with your sensor (e.g., Temperature Sensor). Locate the VCC, GND, and DATA pins on the sensor.</strong></li>
+<li><strong>Connect the VCC pin to the 3V3 (3.3V) output on the ESP32.</strong></li>
+<li><strong>Connect the GND pin to one of the GND (Ground) pins on the ESP32.</strong></li>
+<li><strong>Connect the DATA pin to a digital or analog input pin on the ESP32, depending on the sensor's output type.</strong> All of your onboarding sensors should be analog. Search up the name and brand of your sensor, and the manufacturer should have a document on what pin the device should be connected to. Feel free to message the discord if you cannot find it, but we intentionally left it out so you can practice this process and use these skills on future sensors.</li>
+<li><strong>Repeat for Additional Sensors:</strong> Follow the same process for each sensor you have, ensuring that each sensor's DATA pin connects to a unique input pin on the ESP32.</li>
+<li><strong>Powering the ESP32 Board:</strong> You can power the ESP32 Feather Board via USB or through a battery if your setup is remote.</li>
+<li><strong>Check Connections:</strong> Once all sensors are connected, double-check each connection for correctness and security.</li>
+</ol>
+<h3 id="additional-resources">Additional Resources:</h3>
+<ul>
+<li><a href="link-to-adafruit-guide">Adafruit's Official Guide to ESP32 Feather Board</a></li>
+<li><a href="link-to-forum">Forum for Troubleshooting ESP32 Connections</a></li>
+<li><a href="link-to-video-tutorial">Video Tutorial on Connecting Various Sensors to ESP32</a></li>
+</ul>
+<p>By following these steps and utilizing the resources provided, you'll be able to successfully connect and configure the sensors with the Adafruit ESP32 Feather Board, laying a solid foundation for your hydroponic system's functionality.</p>
+<ul>
+<li><a href="https://learn.adafruit.com/adafruit-huzzah32-esp32-feather/pinouts">Detailed connection tutorial</a></li>
+</ul>
+<h2 id="section-3-coding-for-the-sensors">Section 3: Coding for the Sensors</h2>
+<p>The sensors provided have analog outputs and are labeled with their names and brands.</p>
+<ol>
+<li>
+<p>To find the test code, start by searching online using the specific brand and model of your sensor. For example, DFRobot provides excellent documentation for their products, such as this <a href="https://wiki.dfrobot.com/Gravity__Analog_TDS_Sensor___Meter_For_Arduino_SKU__SEN0244">documentation for the Gravity Analog TDS Sensor &amp; Meter for Arduino (SKU: SEN0244)</a>. You can typically find this information by searching for terms like "tds sensor dfrobot code." This search should lead you to the correct documentation, usually within the first few search results. Remember, the code provided in this example is specific to the DFRobot sensor and SHOULD NOT BE DIRECTLY COPIED for use with a different sensor. Always use the code intended for your specific sensor model.</p>
+</li>
+<li>
+<p>Review the code and highlight any confusing parts. I recommend printing out the code for easier annotation. Bring your annotated version to our next PInT meeting, where we'll go over it together. If you're up for a challenge, try creating documentation for the code and explaining it to the group. This exercise is designed to help us practice understanding and documenting code that has poor documentation (or none at all T_T). It's completely fine if you don't understand everything yet. Just do your best, and we'll discuss it together at the meeting!</p>
+</li>
+<li>
+<p>If you're stuck, feel free to ask for help on our Discord channel.</p>
+</li>
+</ol>
+<h2 id="section-4-putting-it-all-together">Section 4: Putting It All Together</h2>
+<ol>
+<li>Download PlatformIO from <a href="link-to-platformio">PlatformIO Documentation</a>.</li>
+<li>Set up your breadboard as described in Section 2.</li>
+<li>Import the sensor codes onto the Adafruit ESP32 board using PlatformIO.</li>
+<li>Troubleshoot any issues by revisiting previous sections or asking on Discord.</li>
+<li>Remember, it's common to encounter challenges at this stage. Keep trying, and don't hesitate to ask for help!</li>
+</ol>
+<h2 id="section-5-celebrate-your-success">Section 5: Celebrate Your Success</h2>
+<p>Congratulations on reaching this significant milestone! Once you have successfully configured the sensor to transmit data to your terminal (or any other preferred method), you're ready to integrate it into the larger network. At this point, your sensor is prepared to be connected to the internet through our central communication system.</p>
+<p>This achievement marks not just a technical accomplishment but also your contribution to setting up a crucial part of the hydroponics system. Your efforts bring us a step closer to creating a more efficient and responsive growing environment.</p>
+<p>Take a moment to appreciate your hard work and persistence. Remember, every successful connection and configuration you complete is an integral part of the hydroponics journey. Well done!</p>
+<p><em>Good luck, and welcome to the exciting world of hydroponics!</em></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../packages/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Installing Packages">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Installing Packages
+              </div>
+            </div>
+          </a>
+        
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["announce.dismiss", "content.action.edit", "content.action.view", "content.code.annotate", "content.code.copy", "content.tooltips", "navigation.footer", "navigation.indexes", "navigation.sections", "navigation.tabs", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.c18c5fb9.min.js"></script>
+      
+    
+  </body>
+</html>
