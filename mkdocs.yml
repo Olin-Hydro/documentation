@@ -35,3 +35,6 @@ theme:
 
 nav:
   - Getting Started: index.md
+  - Computational Set Up: computational_setup.md
+  - Installing Packages: packages.md
+  - Electrical Onboarding: onboarding_electrical.md
